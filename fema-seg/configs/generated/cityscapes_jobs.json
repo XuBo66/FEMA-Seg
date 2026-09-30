@@ -1,0 +1,352 @@
+[
+  {
+    "name": "full",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_full.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "no_frequency",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_no_frequency.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "full_scan",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_full_scan.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "no_mgcr",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_no_mgcr.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "bilinear",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_bilinear.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "eaa_only",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_eaa_only.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "sgdu_only",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_sgdu_only.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "bridge_12",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_bridge_12.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "bridge_9_12",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_bridge_9_12.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "bridge_1_3_5_7",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_bridge_1_3_5_7.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "seed_10",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_seed_10.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "seed_42",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_seed_42.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "seed_123",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_seed_123.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "seed_777",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_seed_777.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "seed_999",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_seed_999.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.3_alpha0.05",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.3_alpha0.05.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.3_alpha0.1",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.3_alpha0.1.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.3_alpha0.15",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.3_alpha0.15.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.45_alpha0.05",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.45_alpha0.05.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.45_alpha0.1",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.45_alpha0.1.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.45_alpha0.15",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.45_alpha0.15.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.6_alpha0.05",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.6_alpha0.05.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.6_alpha0.1",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.6_alpha0.1.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "tau0.6_alpha0.15",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_tau0.6_alpha0.15.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset1.0_gamma0.1",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset1.0_gamma0.1.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset1.0_gamma0.3",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset1.0_gamma0.3.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset1.0_gamma0.5",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset1.0_gamma0.5.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset2.0_gamma0.1",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset2.0_gamma0.1.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset2.0_gamma0.3",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset2.0_gamma0.3.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset2.0_gamma0.5",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset2.0_gamma0.5.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset3.0_gamma0.1",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset3.0_gamma0.1.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset3.0_gamma0.3",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset3.0_gamma0.3.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "offset3.0_gamma0.5",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_offset3.0_gamma0.5.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "sparse_only",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_sparse_only.yaml"
+    ],
+    "status": "not_run"
+  },
+  {
+    "name": "boxes_only",
+    "command": [
+      "C:\\Users\\\u9a6c\u5ba3\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "train.py",
+      "--config",
+      "configs\\generated\\cityscapes_boxes_only.yaml"
+    ],
+    "status": "not_run"
+  }
+]

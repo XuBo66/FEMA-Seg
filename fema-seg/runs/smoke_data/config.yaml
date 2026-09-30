@@ -1,0 +1,56 @@
+device: cpu
+model:
+  alpha: 0.1
+  backend: reference
+  bridges:
+  - 1
+  - 2
+  - 3
+  classes: 3
+  context_depth: 3
+  context_dim: 8
+  depths:
+  - 2
+  - 2
+  - 2
+  - 2
+  dims:
+  - 8
+  - 12
+  - 16
+  - 24
+  eaa: true
+  frequency: true
+  heads: 2
+  mgcr: true
+  offset: 2.0
+  scan_mode: parity
+  sgdu: true
+  state: 2
+  strides:
+  - 8
+  - 4
+  - 2
+  - 1
+output: runs/smoke
+seed: 42
+subset: "C:\\Users\\\u9A6C\u5BA3\\Documents\\Codex\\2026-09-30\\x20\\outputs\\fema-seg\\\
+  runs\\smoke_data\\subset.json"
+train:
+  amp: false
+  batch: 4
+  crop:
+  - 32
+  - 32
+  epochs: 2
+  fine_epochs: 1
+  lr: 0.0001
+  min_lr: 1.0e-06
+  steps_per_epoch: 1
+  warmup: 1
+train_manifest: "C:\\Users\\\u9A6C\u5BA3\\Documents\\Codex\\2026-09-30\\x20\\outputs\\\
+  fema-seg\\runs\\smoke_data\\train.jsonl"
+val_manifest: "C:\\Users\\\u9A6C\u5BA3\\Documents\\Codex\\2026-09-30\\x20\\outputs\\\
+  fema-seg\\runs\\smoke_data\\val.jsonl"
+vegetation:
+- 1

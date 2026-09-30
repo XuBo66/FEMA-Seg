@@ -1,0 +1,53 @@
+seed: 42
+device: cuda
+output: runs/cityscapes/tau0.6_alpha0.05
+train_manifest: data/cityscapes/pseudo_tau0.60/manifest.jsonl
+val_manifest: data/cityscapes/val/manifest.jsonl
+subset: data/cityscapes/subset42.json
+vegetation:
+- 8
+model:
+  classes: 19
+  dims:
+  - 64
+  - 128
+  - 256
+  - 512
+  depths:
+  - 2
+  - 2
+  - 4
+  - 2
+  state: 16
+  context_dim: 128
+  context_depth: 12
+  heads: 4
+  bridges:
+  - 3
+  - 6
+  - 9
+  - 12
+  strides:
+  - 8
+  - 4
+  - 2
+  - 1
+  alpha: 0.05
+  offset: 2.0
+  backend: cuda
+  frequency: true
+  mgcr: true
+  eaa: true
+  sgdu: true
+  scan_mode: parity
+train:
+  epochs: 160
+  fine_epochs: 40
+  warmup: 10
+  batch: 4
+  crop:
+  - 1024
+  - 1024
+  lr: 0.0001
+  min_lr: 1.0e-06
+  amp: true

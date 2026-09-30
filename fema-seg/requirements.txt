@@ -1,0 +1,6 @@
+# Install PyTorch separately with the command in README.
+numpy==1.26.4
+Pillow==10.4.0
+PyYAML==6.0.2
+opencv-python-headless==4.10.0.84
+pytest==8.3.3

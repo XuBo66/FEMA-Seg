@@ -1,0 +1,34 @@
+{
+  "mIoU": 0.18956449171874445,
+  "mPA": 0.4244934586868762,
+  "mBIoU": 0.15977538548806988,
+  "GVI_RMSE_fraction": 0.4025824866270493,
+  "GVI_RMSE_percentage_points": 40.25824866270493,
+  "per_class_IoU": [
+    0.11751563896336015,
+    0.23176661264181522,
+    0.21941122355105797
+  ],
+  "confusion": [
+    [
+      263,
+      1087,
+      514
+    ],
+    [
+      0,
+      572,
+      124
+    ],
+    [
+      374,
+      685,
+      477
+    ]
+  ],
+  "images": 4,
+  "boundary_pixels": 3,
+  "manifest": "C:\\Users\\\u9a6c\u5ba3\\Documents\\Codex\\2026-09-30\\x20\\outputs\\fema-seg\\runs\\smoke_data\\val.jsonl",
+  "checkpoint": "runs/smoke/best.pt",
+  "tile": 0
+}

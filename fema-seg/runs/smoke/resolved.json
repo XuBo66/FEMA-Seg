@@ -1,0 +1,73 @@
+{
+  "config": {
+    "device": "cpu",
+    "model": {
+      "alpha": 0.1,
+      "backend": "reference",
+      "bridges": [
+        1,
+        2,
+        3
+      ],
+      "classes": 3,
+      "context_depth": 3,
+      "context_dim": 8,
+      "depths": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "dims": [
+        8,
+        12,
+        16,
+        24
+      ],
+      "eaa": true,
+      "frequency": true,
+      "heads": 2,
+      "mgcr": true,
+      "offset": 2.0,
+      "scan_mode": "parity",
+      "sgdu": true,
+      "state": 2,
+      "strides": [
+        8,
+        4,
+        2,
+        1
+      ]
+    },
+    "output": "runs/smoke",
+    "seed": 42,
+    "subset": "C:\\Users\\\u9a6c\u5ba3\\Documents\\Codex\\2026-09-30\\x20\\outputs\\fema-seg\\runs\\smoke_data\\subset.json",
+    "train": {
+      "amp": false,
+      "batch": 4,
+      "crop": [
+        32,
+        32
+      ],
+      "epochs": 2,
+      "fine_epochs": 1,
+      "lr": 0.0001,
+      "min_lr": 1e-06,
+      "steps_per_epoch": 1,
+      "warmup": 1
+    },
+    "train_manifest": "C:\\Users\\\u9a6c\u5ba3\\Documents\\Codex\\2026-09-30\\x20\\outputs\\fema-seg\\runs\\smoke_data\\train.jsonl",
+    "val_manifest": "C:\\Users\\\u9a6c\u5ba3\\Documents\\Codex\\2026-09-30\\x20\\outputs\\fema-seg\\runs\\smoke_data\\val.jsonl",
+    "vegetation": [
+      1
+    ]
+  },
+  "input_sha256": {
+    "train_manifest": "b512b79d22dba9da94a87b4949f88e01e94322d0c8f9ba2e6a5d563bfb04d8b5",
+    "val_manifest": "5351d7bc592c52157bc79c001ebe550d9de9e73916dcdae9a1c1499c52c0c3c0",
+    "subset": "b3d5990034d7311e00cca70a7359c634c98cfab2a0ab6508661955db4e053415"
+  },
+  "torch": "2.6.0+cpu",
+  "parameters": 54519,
+  "initialization": "random"
+}

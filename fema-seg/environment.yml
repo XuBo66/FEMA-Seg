@@ -1,0 +1,10 @@
+name: fema-seg
+channels: [pytorch, nvidia, conda-forge]
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch-cuda=12.1
+  - pip:
+      - -r requirements.txt
